@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cryptocurrency Table</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="entire">
+      <div class="inputs" style="margin-bottom: 20px">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search By Name or Symbol"
+        />
+        <button id="sortMarketCap">Sort By Mkt Cap</button>
+        <button id="sortPercentageChange">Sort By Percentage</button>
+      </div>
+      <table
+        id="cryptoTable"
+        style="text-align: center; width: 70%; font-size: 24px; color: #fff"
+      >
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Symbol</th>
+            <th>Current Price</th>
+            <th>Total Volume</th>
+            <th>Percentage</th>
+            <th>Mkt Cap</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
